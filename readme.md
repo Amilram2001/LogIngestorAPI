@@ -28,18 +28,14 @@ Let's set up the Log Ingestor API on your machine. Ensure you have met the requi
    ```
    git clone https://github.com/Amilram2001/LogIngestorAPI.git
    ```
-2. **Open in an IDE:**
-   - Launch your preferred IDE supporting .NET development.
-
-3. **Run the Project:**
-   - Click the run button to start the project. If Swagger opens with a different URL initially, no worries.
-   - Alternatively, you can use dotnet cli to run the project using command line
+2. **Run the Project:**
+ You can use dotnet cli to run the project using command line
       ```
-        dotnet run
+      dotnet run
       ```
 
 4. **Explore API Endpoints:**
-   - Access the Swagger UI to interact with and test the API at [http://localhost:5038/swagger/index.html](http://localhost:3000/swagger/index.html) (ensure no trailing slash in the URL).
+   Access the Swagger UI to interact with and test the API at [http://localhost:5038/swagger/index.html](http://localhost:3000/swagger/index.html) (ensure no trailing slash in the URL).
 
 ## Endpoint Samples
 

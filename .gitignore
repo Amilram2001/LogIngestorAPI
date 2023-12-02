@@ -2,3 +2,5 @@ data.db*
 .DS_STORE
 .idea/
 Migrations
+.bin/
+.obj/
