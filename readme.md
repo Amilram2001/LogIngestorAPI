@@ -33,14 +33,15 @@ Let's set up the Log Ingestor API on your machine. Ensure you have met the requi
       ```
       dotnet run
       ```
-
-4. **Explore API Endpoints:**
-   Access the Swagger UI to interact with and test the API at [http://localhost:5038/swagger/index.html](http://localhost:3000/swagger/index.html) (ensure no trailing slash in the URL).
+   Note: Make sure to run EF Core migrations and schema update if you're building for first time. See [https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
+     
+3. **Explore API Endpoints:**
+   Access the Swagger UI to interact with and test the API at [http://localhost:5038/swagger/index.html](http://localhost:5038/swagger/index.html) (ensure no trailing slash in the URL).
 
 ## Endpoint Samples
 
 #### Fetch all log data (GET)
-- Endpoint: [http://localhost:5038](http://localhost:3000)
+- Endpoint: [http://localhost:5038](http://localhost:5038)
 - Result Sample (if data exists):
  ```
 [{
