@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "O7BlwkAKIOLpkZQRyEdLhgyBBKKJLCq2fPuzdyiMX/k=",
+  "Source": "LogIngestorAPI",
+  "BasePath": "_content/LogIngestorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
